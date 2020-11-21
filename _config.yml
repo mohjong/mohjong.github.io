@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: Mohjong
+description: Use Frida with a simple APP, without needing to root, unlock the bootloader, or flash a system image.
+show_downloads: false
