@@ -5,7 +5,7 @@
 // @description 防止软件因签名导致不能正常使用
 // @author      sollyu
 // @copyright   2020, sollyu
-// @license     MIT
+// @license     Apache-2.0 License
 // @package     *
 // @icon        https://mohjong.github.io/scripts/1788C7FF-AD17-403A-8A64-3AFC90D1043C/icon.png
 // ==/UserScript==
@@ -27,7 +27,6 @@ const MyInvocationHandler = Java.registerClass({
             if (method.getName() == 'toString')
                 return packageManagerObj.toString()
 
-            LogCat.d("MohjongScriptSignatureHacker", "LOG:ScriptInject")
             try{
                 // 1. 判断当前为获取包信息
                 // 2. 判断当前为获取自己的包名

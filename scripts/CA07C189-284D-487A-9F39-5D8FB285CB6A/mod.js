@@ -9,7 +9,6 @@
 // @package     *
 // @icon        https://mohjong.github.io/scripts/CA07C189-284D-487A-9F39-5D8FB285CB6A/icon.png
 // ==/UserScript==
-const LogCat = Java.use("android.util.Log");
 const BlockFilePath = ["/system/app/Superuser.apk", "/sbin/su", "/system/bin/su", "/system/xbin/su", "/data/local/xbin/su", "/data/local/bin/su", "/system/sd/xbin/su", "/system/bin/failsafe/su", "/data/local/su", "/su/bin/su"];
 Java.use("java.io.File").exists.implementation = function() {
     if (BlockFilePath.indexOf(this.getAbsolutePath()) != -1)
