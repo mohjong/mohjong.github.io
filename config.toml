@@ -1,0 +1,308 @@
+baseURL = "https://mohjong.github.io/"
+defaultContentLanguage = "zh-cn"
+theme = "LoveIt"
+title = "Mohjong"
+
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+
+[languages]
+  [languages.zh-cn]
+    weight = 1
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    hasCJKLanguage = true
+    paginate = 12
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
+        identifier = "document"
+        pre = ""
+        post = ""
+        name = "使用文档"
+        url = "/document/"
+        title = ""
+        weight = 1
+      [[languages.zh-cn.menu.main]]
+        identifier = "develop"
+        pre = ""
+        post = ""
+        name = "开发文档"
+        url = "/develop/"
+        title = ""
+        weight = 2
+      [[languages.zh-cn.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/mohjong/mohjong.github.io"
+        title = "GitHub"
+        weight = 3
+    [languages.zh-cn.params]
+      keywords = ["Frida", "Root", "Xposed", "Android", "Javascript", "Mohjong", "麻将"]
+      [languages.zh-cn.params.app]
+        title = "麻将"
+        noFavicon = false
+        svgFavicon = ""
+        themeColor = "#ffffff"
+        iconColor = "#5bbad5"
+        tileColor = "#da532c"
+      [languages.zh-cn.params.search]
+        enable = true
+        type = "algolia"
+        contentLength = 4000
+        placeholder = ""
+        maxResultLength = 10
+        snippetLength = 50
+        highlightTag = "em"
+        absoluteURL = false
+        [languages.zh-cn.params.search.algolia]
+          index = "index.zh-cn"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      # 主页信息设置
+      [languages.zh-cn.params.home]
+        rss = 10
+        [languages.zh-cn.params.home.profile]
+          enable = true
+          avatarURL = "/images/avatar.png"
+          title = "麻将"
+          subtitle = "一个免Root使用 Frida 的软件"
+          typeit = true
+          social = true
+          disclaimer = ""
+        [languages.zh-cn.params.home.posts]
+          enable = false
+          paginate = 6
+      # 主页的社交信息设置
+      [languages.zh-cn.params.social]
+        GitHub = "mohjong"
+        Telegram = "https://skjakdjakjdf"
+        Email = "admin@mohjong.cn"
+
+
+  [languages.en]
+    weight = 2
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = false
+    paginate = 12
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "document"
+        pre = ""
+        post = ""
+        name = "Document"
+        url = "/document/"
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "develop"
+        pre = ""
+        post = ""
+        name = "Develop"
+        url = "/develop/"
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/mohjong/mohjong.github.io"
+        title = "GitHub"
+        weight = 3
+    [languages.en.params]
+      keywords = ["Frida", "Root", "Xposed", "Android", "Javascript", "Mohjong", "麻将"]
+      [languages.en.params.app]
+        title = "Mohjong"
+        noFavicon = false
+        svgFavicon = ""
+        themeColor = "#ffffff"
+        iconColor = "#5bbad5"
+        tileColor = "#da532c"
+      [languages.en.params.search]
+        enable = true
+        type = "algolia"
+        contentLength = 4000
+        placeholder = ""
+        maxResultLength = 10
+        snippetLength = 30
+        highlightTag = "em"
+        absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = "index.en"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      [languages.en.params.home]
+        rss = 10
+        [languages.en.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/images/avatar.png"
+          title = "Mohjong"
+          subtitle = "no english :)  "
+          typeit = true
+          social = true
+          disclaimer = ""
+        [languages.en.params.home.posts]
+          enable = false
+      # Social config in home page
+      [languages.en.params.social]
+        GitHub = "mohjong"
+        Telegram = "https://skjakdjakjdf"
+        Email = "admin@mohjong.cn"
+
+
+
+
+[params]
+  version = "0.2.X"
+  defaultTheme = "auto"
+  gitRepo = "https://github.com/dillonzq/LoveIt"
+  fingerprint = "sha512"
+  dateFormat = "2006-01-02"
+  images = ["/logo.png"]
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = ""
+      name = ""
+      pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
+      post = ""
+      typeit = false
+
+  [params.footer]
+    enable = true
+    custom = ''
+    hugo = true
+    copyright = true
+    author = true
+    since = 2021
+    icp = ""
+    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  # Page config
+  # 文章页面配置
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = true
+    rssFullText = false
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 10
+    [params.page.math]
+      enable = false
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      copyTex = true
+      mhchem = true
+    [params.page.mapbox]
+      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      navigation = true
+      geolocate = true
+      scale = true
+      fullscreen = true
+    [params.page.share]
+      enable = false
+    [params.page.comment]
+      enable = false
+
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  [params.cdn]
+    data = "jsdelivr.yml"
+
+  [params.compatibility]
+    polyfill = false
+    objectFit = false
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[author]
+  name = "mohjong"
+  email = "admin@mohjong.cn"
+  link = "https://mohjong.github.io/"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[Permalinks]
+  posts = ":filename"
+
+# Options to make output .md files
+# 用于输出 Markdown 格式文档的设置
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+# Options to make output .md files
+# 用于输出 Markdown 格式文档的设置
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+# Options to make hugo output files
+# 用于 Hugo 输出文档的设置
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
