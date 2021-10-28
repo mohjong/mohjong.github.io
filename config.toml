@@ -33,12 +33,12 @@ enableEmoji = true
         title = ""
         weight = 2
       [[languages.zh-cn.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
+        identifier = "google_play"
+        pre = "<i class='fab fa-google-play fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/mohjong/mohjong.github.io"
-        title = "GitHub"
+        url = "http://play.google.com/store/apps/details?id=io.github.mohjong"
+        title = "Google Play"
         weight = 3
     [languages.zh-cn.params]
       keywords = ["Frida", "Root", "Xposed", "Android", "Javascript", "Mohjong", "麻将"]
@@ -108,12 +108,12 @@ enableEmoji = true
         title = ""
         weight = 2
       [[languages.en.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
+        identifier = "google_play"
+        pre = "<i class='fab fa-google-play fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/mohjong/mohjong.github.io"
-        title = "GitHub"
+        url = "http://play.google.com/store/apps/details?id=io.github.mohjong"
+        title = "Google Play"
         weight = 3
     [languages.en.params]
       keywords = ["Frida", "Root", "Xposed", "Android", "Javascript", "Mohjong", "麻将"]
